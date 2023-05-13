@@ -1,0 +1,166 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  height: 1000px;
+}
+.ww{
+  width: 800px;
+}
+.pq{
+  height: 35px;
+}
+.f{
+  font-size: 40px;
+}
+.ml{
+  margin-left: 460px;
+}
+.ml1{
+  margin-left: 225px;
+}
+.h{
+  height: 311px;
+}
+.h1{
+
+height: 600px;}
+.text1{
+
+  font-size: x-small;
+}
+.tet{
+  font-size: xx-small;
+}
+.pxa{
+  padding-left: 102px;
+  padding-right: 102px;
+  margin-top: 10px;
+  
+}
+.skeleton{
+  animation: skeleton 1s  1s infinite  linear alternate;}
+.skeleton-text{
+  width: 80%;
+  height: 0.5rem;
+  margin-bottom: 0.24rem;
+  margin-top: 2px;
+}
+.skeleton-text:first-child{
+  width: 40%;
+  height: 0.5rem;
+  margin-bottom: 0.24rem;
+  margin-top: 2px;
+}
+.skeleton1{
+  width: 50%;
+  height: 0.5rem;
+  margin-bottom: 2px;
+  position: relative;
+  top: 8px;
+  margin-top: 2px;
+}
+.skeleton2{
+  width: 60%;
+  height: 0.5rem;
+  margin-bottom: 2px;
+  position: relative;
+  top: 19px;
+  margin-top: 2px;
+}
+.img{
+  background-image: url('./netflix.png');
+
+  
+}
+.skeleton3{
+  width: 70%;
+  height: 0.5rem;
+  margin-bottom: 2px;
+  position: relative;
+  top: 28px;
+  margin-top: 2px;
+}
+.skeleton4{
+  width: 80%;
+  height: 0.5rem;
+  margin-bottom: 2px;
+  position: relative;
+  top: 36px;
+  margin-top: 2px;
+}
+.skeleton5{
+  width: 70%;
+  height: 0.5rem;
+  margin-bottom: 2px;
+  position: relative;
+  top: 45px;
+  margin-top: 2px;
+
+}
+.skeleton6{
+  width: 60%;
+  height: 0.5rem;
+  margin-bottom: 2px;
+  position: relative;
+  top: 53px;
+  margin-top: 2px;
+}
+.skeleton7{
+  width: 50%;
+  height: 0.5rem;
+  margin-bottom: 2px;
+  position: relative;
+  top: 64px;
+  margin-top: 2px;
+}
+.skeleton8{
+  width: 40%;
+  height: 0.5rem;
+  margin-bottom: 2px;
+
+  margin-top: 2px;
+}
+.skeleton9{
+  width: 40%;
+  height: 0.5rem;
+  margin-bottom: 2px;
+  
+  top: 2px;
+}
+.skeleton10{
+  width: 40%;
+  height: 0.5rem;
+  margin-bottom: 2px;
+
+  margin-top: 2px;
+}
+@keyframes skeleton{
+  0%{
+    background-color: hsl(200, 20%, 70%);
+  }
+  100%{
+    background-color: hsl(200, 20%, 95%);
+  }
+}
+.bg{
+  
+  background-image:url('https://assets.nflxext.com/ffe/siteui/vlv3/efb4855d-e702-43e5-9997-bba0154152e0/42f6dd08-d478-46e4-a4a8-e3a93aa7e085/IN-en-20230417-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+}
+.width{
+  width: 1220px;
+}
+.class{
+  background-color: rgba(0,0,0,0);
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

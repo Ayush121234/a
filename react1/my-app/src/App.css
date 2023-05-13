@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+}
+.card{
+  background-color: white;
+  border: solid grey 1px;
+  border-radius: 10px;
+  margin: 20px 20px 20px 20px;
+  height: 100px;
+  text-align: center;
+ 
+  display: inline-block;
+  width: 300px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.background{
+  background-color: wheat;
+  height: 1000px;
+  width: 100%;
+}
+.border{
+  border:none;
+  border-color: white;
+  box-shadow: 6px;
+  box-shadow: grey;
+}
+.button{
+  position: relative;
+  
+  height: 30px;
+  border-radius: 100%;
+  width: 30px;
+}
+*{
+  margin: 0%;
+  padding: 0%;
+}
+.note{
+  height: 150px;
+  width: 400px;
+  background-color: white;
+  border: solid grey 1px;
+  border-radius: 10px;
+  
+
+}
+.body{
+  background-color: wheat;
+}
+.yellow{
+  height: 60px;
+  background-color: yellow;
+}
+.text{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 10px;
+  font-size: larger;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

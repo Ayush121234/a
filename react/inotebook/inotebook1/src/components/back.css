@@ -1,0 +1,42 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.main{
+    height:690px;
+    margin: 0%;
+    padding: 0%;
+}
+.background{
+    background-image: url("background.jpg");
+    background-size: cover;
+    position: relative;
+    opacity: 10;
+}
+.margin{
+    margin:5px;
+}
+.form{
+    height: 600px;
+    
+    display: inline;
+   
+    position: absolute;
+
+    margin-top: 100px;
+    margin-left: 600px;
+}
+.border{
+    border:red solid 2px;
+    border-spacing: 3px;
+    position: relative;
+}
+.input{
+    opacity: 0.9;
+    content-visibility:visible;
+    
+    text-rendering: optimizeSpeed;
+    text-decoration-color: antiquewhite;
+    background-color: #d1d1d1; ;
+    
+}

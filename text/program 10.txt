@@ -1,0 +1,20 @@
+										              Program-10
+Working of Computational Software
+
+Sagemath is a free open-source mathematical software system based on the Python programming language. Originally created for research into Mathematics, it has been evolving into a powerful tool for
+Math education. It combines numerous other mathematical software packages with a single interface, using Python.
+By learning SageMath, you are also learning a lot about Python.
+As an open source project, SageMath invites contributions from all of its users. This tutorial is one of many sources
+of information for learning about how to use SageMath. For more information see the SageMath project’s website.
+This tutorial assumes that the reader has access to a running copy of SageMath. On most operating systems, installing
+SageMath usually consists of downloading the proper package from the project’s main website, unwrapping it, and
+executing sage from within. For more information on the process of installing sage see SageMath’s Installation Guide.
+A good alternative is to run SageMath in the cloud using Cocalc. All you need to do is either sign up for a free account
+or sign in through a Google/Github/Facebook/Twitter account. Once you are signed up, you can start a project using
+SageMath, and also share it with other users. For more information about Cocalc and its features, visit Cocalc Tutorial.
+If you opted for the physical installation and started SageMath, you should know that there are two ways to enter
+commands: either from the command line or by using the web-based notebook. The notebook interface is similar in
+design to the interface of Matlab, Mathematica, or Maple and is a popular choice.
+Everything that follows the sage: prompt is a command that we encourage the reader to type in on their own.
+For example, if we wanted to factor the integer 1438880 we would give the following example using SageMath’s
+factor() command.

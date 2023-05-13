@@ -1,0 +1,32 @@
+.row1{
+    display:flex;
+    flex-direction: row;
+    margin:5px ;
+    margin-right: 5px;
+    justify-content: space-around;
+  }
+  .number{
+    width:80px;
+    
+  }
+  .row2{
+    display:flex;
+    flex-direction: row;
+    margin:5px 5px;
+    justify-content: space-around;
+  }
+  .row3{
+    display:flex;
+    flex-direction: row;
+    margin:5px 5px;
+    justify-content: space-around;
+  }
+  .main{
+    display:relative;
+    width:100px;
+    margin:auto 50%;
+  }
+  .button0{
+    height: 65px;
+  }
+ 

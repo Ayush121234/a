@@ -1,0 +1,63 @@
+ayushag6545@gmail.com
+Mynameislovi1@
+loviagarwal1209@gmail.com
+mynameislovi1@
+loviagarwal55@gmail.com
+Mynameislovi1@
+loviagarwal2525@gmail.com
+Mynameislovi1@
+
+
+
+
+ayushagag7162@gmail.com 					mynameisayushagag
+loviagarwal55@gmail.com				mynameislovi
+loviagarwal1209@gmail.com				mynameislovi
+loviagarwal2525@gmail.com				mynameislovi
+ayushmaanagarwal1212@gmail.com		mynameisayushmaan
+ayushag6545@gmail.com					mynameisayush
+ayushag6475@gmail.com					mynameisayush
+anusaini26354@gmail.com
+ayushag080@gmail.com					mynameisayush
+hlotou32323232@gmail.com				mynameishlotou
+microsoftkeliye3784@gmail.com			Mynameislovi1@
+navneetagarwal665@gmail.com			
+loviagarwal235@gmail.com				mynameislovi
+lovag2313@gmail.com					mynameislov
+loviag1121@gmail.com		q			mynameislovi
+loag01229@gmail.com					mynameislo
+aglovi78@gmail.com   					mynameisag
+# cdab74295@gmail.com					mynameisabcd
+#aab24743@gmail.com
+aaab24743@gmail.com
+ayushmaan1524@gmail.com				mynameisayushmaan
+a4985987@gmail.com						mynameislovi
+m8272869@gmail.com
+ayush657645@gmail.com
+ayushag783723@gmail.com
+
+hapopeho@jollyfree.com
+
+
+
+
+
+
+
+int sum=0;
+        StringBuilder a=new StringBuilder();
+        for(int i=0;i<k;i++){
+            for(int j=0;j<n.length();j++){
+                a.append(n.charAt(j));
+            }
+        }
+        System.out.println(a);
+        for(int i=0;i<a.length();i++){
+            sum+=Integer.parseInt(a.substring(i,i+1));
+        }
+        System.out.println(sum);
+        if(sum<9){
+            return sum;
+        }
+        superDigit(Integer.toString(sum), 1);
+    }

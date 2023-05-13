@@ -1,0 +1,17 @@
+
+.navbar{
+  background-color: black;
+  height: 60px;
+  color: white;
+
+}
+.bord{
+  border: solid gray 1px ;
+}
+.img{
+  height: 60px;
+
+}
+.flex{
+  display: flex;
+}
